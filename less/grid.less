@@ -1,0 +1,46 @@
+// 12 col grid 
+*{
+	.box-sizing;
+}
+
+body{background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/pw_maze_white.png);}
+
+
+
+.page-wrap{
+	width: 80%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.row{
+	overflow: hidden;
+	background-color: black;
+	padding:0 1em 1em 0;
+	[class*='col-']{
+		float:left;
+		padding-left: 1em;
+	}
+
+// Base width
+
+@baseWidth: 8.33333333333333%;
+
+	.col-1{width: (@baseWidth);}
+	.col-2{width: (@baseWidth * 2);}
+	.col-3{width: (@baseWidth * 3);}
+	.col-4{width: (@baseWidth * 4);}
+	.col-5{width: (@baseWidth * 5);}
+	.col-6{width: (@baseWidth * 6);}
+	.col-7{width: (@baseWidth * 7);}
+	.col-8{width: (@baseWidth * 8);}
+	.col-9{width: (@baseWidth * 9);}
+	.col-10{width: (@baseWidth * 10);}
+	.col-11{width: (@baseWidth * 11);}
+	.col-12{width: (@baseWidth * 12);}
+}
+
+.module{
+	padding: 1em;
+	background-color: #ccc;
+}
