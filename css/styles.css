@@ -388,7 +388,7 @@ table {
   padding: 0.5em;
 }
 .framework .module {
-  background-color: #999999;
+  background-color: #eeeeee;
 }
 html {
   font-style: normal;
@@ -483,7 +483,7 @@ h4 small {
 }
 a {
   text-decoration: none;
-  color: #0088cc;
+  color: #f80000;
 }
 a:hover {
   /*Foo*/
@@ -601,10 +601,24 @@ body {
 .text-center {
   text-align: center;
 }
-/* links ---------------------- */
 /* page */
 .page-header {
   color: #555555;
+}
+/* media ---------------------- */
+img {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+.thumb {
+  padding: .5em;
+  border: 1px solid #eeeeee;
+  float: left;
+  width: 100%;
+}
+.thumb button {
+  float: right;
 }
 /* ============== Custom Styles =================== */
 /* 	Media Queries */
