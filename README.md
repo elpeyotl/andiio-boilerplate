@@ -1,4 +1,4 @@
 andiio-boilerplate
 ==================
 
-Boilerplate to start web apps
+Boilerplate to start basic web apps
