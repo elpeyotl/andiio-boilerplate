@@ -391,7 +391,6 @@ table {
   background-color: #999999;
 }
 html {
-  font-size: 62.5%;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -479,6 +478,17 @@ h4 small {
   margin: 20px 0 30px;
   border-bottom: 1px solid #eeeeee;
 }
+.sub-header {
+  color: #555555;
+}
+a {
+  text-decoration: none;
+  color: #0088cc;
+}
+a:hover {
+  /*Foo*/
+
+}
 ul,
 ol {
   padding: 0;
@@ -497,6 +507,10 @@ ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none;
+}
+ul.styled,
+ol.styled {
+  list-style-type: square;
 }
 ul.inline,
 ol.inline {

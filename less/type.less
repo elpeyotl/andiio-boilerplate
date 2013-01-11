@@ -7,7 +7,8 @@
 // Body text
 // -------------------------
 
-html { font-size: 62.5%; font-style: normal; -webkit-font-smoothing: antialiased;  }
+html {font-style: normal; -webkit-font-smoothing: antialiased; }
+//font-size: 62.5%; 
 
 p {
   margin: 0 0 @baseLineHeight / 2;
@@ -72,6 +73,27 @@ h4 small { font-size: @baseFontSize; }
   border-bottom: 1px solid @grayLighter;
 }
 
+// Sub headers
+// -------------------------
+
+.sub-header {
+  color: @gray;
+}
+
+
+// Links
+//--------------------------
+
+// @TODO !!! BUGS
+a{
+  text-decoration: none;
+  color: @linkColor;
+}
+a:hover{
+  /*Foo*/
+}
+
+
 // Lists
 // --------------------------------------------------
 
@@ -95,6 +117,11 @@ ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none;
+}
+// list styles
+ul.styled,
+ol.styled {
+  list-style-type:square;
 }
 
 // Single-line list items
