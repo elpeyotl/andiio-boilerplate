@@ -8,4 +8,4 @@ http://andi.io/andiio-boilerplate/
 
 Thanks for using it! 
 
-<-- THE WORLD IS US! -->
+xxx THE WORLD IS US! xxx
